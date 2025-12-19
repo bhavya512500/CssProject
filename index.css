@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Whisper&display=swap"
-      rel="stylesheet"
-    />
-    <title></title>
-    <style type="text/css">
-      * {
+* {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -26,8 +7,8 @@
         background: peachpuff;
       }
       .main {
-        width: 70vw;
-        height: 80vh;
+        width: 900px;
+        height: 500px;
         border: 1px solid transparent;
         background: #fff;
         margin: 50px auto;
@@ -39,24 +20,24 @@
         float: left;
         padding: 20px;
       }
-      .box h1 {
+      .main .box h1 {
         text-transform: capitalize;
         font-family: "Archivo", sans-serif;
         color: #008080;
         font-size: 45px;
         font-weight: 400;
       }
-      .box p {
+      .main .box p {
         color: #008080;
         font-family: "Archivo", sans-serif;
         font-weight: 500;
       }
-      .box h4 {
+      .main .box h4 {
         color: #008080;
         font-style: italic;
         font-weight: 400;
       }
-      .box h2 {
+      .main .box h2 {
         color: #008080;
         font-family: "Whisper", cursive;
         font-weight: 400;
@@ -82,6 +63,10 @@
         height: 100%;
       }
       @media (max-width: 768px) {
+        .main{
+          width: 550px;
+          height: 400px;
+        }
         .main .box h1 {
           font-size: 25px;
         }
@@ -134,31 +119,3 @@
           left: 15%;
         }
       }
-    </style>
-  </head>
-  <body>
-    <div class="main">
-      <div class="box">
-        <h1>Local artist just for <br class="d-none d-md-block" />you</h1>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet, pri autem nemore bonorum <br class="d-none d-md-block"/>te.Autem
-          fierent ullamcorper ius no. Tetibique integellam <br class="d-none d-md-block" />mediocritatem
-          his, est quis.
-        </p>
-        <br class="d-none d-md-block"/>
-        <h4>Mary Bryd,owner</h4>
-        <br  class="d-none d-md-block"/>
-        <h2>Mary Bryd</h2>
-      </div>
-      <div class="box">
-        <div class="img">
-          <img src="task1img.jpg" />
-        </div>
-        <div class="img">
-          <img src="task1img2.jpg" />
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
