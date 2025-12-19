@@ -12,6 +12,7 @@
         border: 1px solid transparent;
         background: #fff;
         margin: 50px auto;
+        box-shadow: 2px 2px 25px 5px rgb(182, 149, 121);
       }
       .main .box {
         width: 50%;
@@ -91,7 +92,7 @@
       @media (max-width: 425px) {
         .main  {
           width: 90vw;
-          height: 70vh;
+          height: 60vh;
           margin: 50px auto;
         }
        
@@ -99,23 +100,24 @@
           font-size: 18px;
         }
         .main .box p {
-          font-size: 14px;
+          font-size: 12px;
         }
         .main .box h4 {
-          font-size: 15px;
+          font-size: 12px;
         }
         .main .box h2 {
-          font-size: 20px;
+          font-size: 14px;
         }
         .main .img {
-          width: 150px;
-          height: 250px;
+          width: 120px;
+          height: 180px;
         }
         .main .img:last-child {
-          top: 15%;
+          top: 20%;
           left: 0%;
         }
         .main .img:first-child {
-          left: 15%;
+          top: 10%;
+          left: 25%;
         }
       }
